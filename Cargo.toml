@@ -1,0 +1,10 @@
+[package]
+name = "httpserver"
+version = "0.1.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+may_minihttp = { git = "https://github.com/Xudong-Huang/may_minihttp.git" }
+env_logger = "0.10"
