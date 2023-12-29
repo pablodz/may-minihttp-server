@@ -14,7 +14,7 @@ impl HttpService for StatusService {
             _ => (404, "Not Found"),
         };
 
-        print!("{} {}\n", code, message) ;
+        print!("{} {}\n", code, message);
 
         rsp.status_code(code, message);
         rsp.body(message);
